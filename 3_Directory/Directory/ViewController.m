@@ -12,31 +12,38 @@
 static NSString *dataURL = @"https://appdev.grinnell.edu/members.json";
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITableView *tabelView;
 
 @end
 
 @implementation ViewController{
-    NSArray<Person *> *people;
+    NSMutableArray<Person *> *people;
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    Person *alex = [Person new];
-    alex.name = @"Alex";
-    alex.title = @"instructor";
-    
-    Person *bob = [Person new];
-    bob.name = @"bob";
-    bob.title = @"example";
-    
-    people = @[alex, bob];
+    [self refreshContent];
+
+    people = [NSMutableArray new];
 }
 
 - (void)refreshContent {
     NSURL *properDataURL = [NSURL URLWithString:dataURL];
     NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithURL:properDataURL completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        NSLog(@"%@", data);
+        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
+        NSArray<NSString *> *names = [dict allKeys];
+        for(NSString *key in names){
+            NSDictionary *personDict = dict[key];
+            NSString *title = personDict[@"title"];
+            Person *person = [Person new];
+            person.name = key;
+            person.title = title;
+            
+            [people addObject:person];
+        }
+        [self.tabelView reloadData];
     }];
+    [task resume];
 }
 
 - (void)didReceiveMemoryWarning {
