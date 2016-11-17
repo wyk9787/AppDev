@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "Person.h"
 
+static NSString *dataURL = @"https://appdev.grinnell.edu/members.json";
+
 @interface ViewController ()
 
 @end
@@ -30,6 +32,12 @@
     people = @[alex, bob];
 }
 
+- (void)refreshContent {
+    NSURL *properDataURL = [NSURL URLWithString:dataURL];
+    NSURLSessionDataTask *task = [[NSURLSession sharedSession] dataTaskWithURL:properDataURL completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        NSLog(@"%@", data);
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
