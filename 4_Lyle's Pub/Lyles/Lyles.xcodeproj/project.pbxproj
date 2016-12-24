@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA676BAB1DE3E27D0009086F /* BeerMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */; };
+		FA676BAD1DE3E3140009086F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA676BAC1DE3E3140009086F /* Main.storyboard */; };
+		FA676BB01DE3E4D20009086F /* LYLEBeer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA676BAF1DE3E4D20009086F /* LYLEBeer.m */; };
+		FAF4E8A41CC99CCB00276C8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4E8A31CC99CCB00276C8B /* main.m */; };
+		FAF4E8A71CC99CCB00276C8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4E8A61CC99CCB00276C8B /* AppDelegate.m */; };
+		FAF4E8AF1CC99CCB00276C8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF4E8AE1CC99CCB00276C8B /* Assets.xcassets */; };
+		FAF4E8B21CC99CCB00276C8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF4E8B01CC99CCB00276C8B /* LaunchScreen.storyboard */; };
+		FAF4E8BD1CC99CCB00276C8B /* LylesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF4E8BC1CC99CCB00276C8B /* LylesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF4E8B91CC99CCB00276C8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF4E8971CC99CCB00276C8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF4E89E1CC99CCB00276C8B;
+			remoteInfo = Lyles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA676BA91DE3E27D0009086F /* BeerMenuTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeerMenuTableViewController.h; path = Lyles/BeerMenuTableViewController.h; sourceTree = "<group>"; };
+		FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeerMenuTableViewController.m; path = Lyles/BeerMenuTableViewController.m; sourceTree = "<group>"; };
+		FA676BAC1DE3E3140009086F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		FA676BAE1DE3E4D20009086F /* LYLEBeer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLEBeer.h; sourceTree = "<group>"; };
+		FA676BAF1DE3E4D20009086F /* LYLEBeer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLEBeer.m; sourceTree = "<group>"; };
+		FAF4E89F1CC99CCB00276C8B /* Lyles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lyles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF4E8A31CC99CCB00276C8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF4E8A51CC99CCB00276C8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF4E8A61CC99CCB00276C8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF4E8AE1CC99CCB00276C8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF4E8B11CC99CCB00276C8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF4E8B31CC99CCB00276C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF4E8B81CC99CCB00276C8B /* LylesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LylesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF4E8BC1CC99CCB00276C8B /* LylesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LylesTests.m; sourceTree = "<group>"; };
+		FAF4E8BE1CC99CCB00276C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF4E89C1CC99CCB00276C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF4E8B51CC99CCB00276C8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF4E8961CC99CCB00276C8B = {
+			isa = PBXGroup;
+			children = (
+				FAF4E8A11CC99CCB00276C8B /* Lyles */,
+				FAF4E8BB1CC99CCB00276C8B /* LylesTests */,
+				FAF4E8A01CC99CCB00276C8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF4E8A01CC99CCB00276C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4E89F1CC99CCB00276C8B /* Lyles.app */,
+				FAF4E8B81CC99CCB00276C8B /* LylesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF4E8A11CC99CCB00276C8B /* Lyles */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4E8C81CC99D6300276C8B /* View Controllers */,
+				FAF4E8C71CC99D1400276C8B /* Models */,
+				FAF4E8A51CC99CCB00276C8B /* AppDelegate.h */,
+				FAF4E8A61CC99CCB00276C8B /* AppDelegate.m */,
+				FA676BAC1DE3E3140009086F /* Main.storyboard */,
+				FAF4E8B01CC99CCB00276C8B /* LaunchScreen.storyboard */,
+				FAF4E8A21CC99CCB00276C8B /* Supporting Files */,
+			);
+			path = Lyles;
+			sourceTree = "<group>";
+		};
+		FAF4E8A21CC99CCB00276C8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4E8AE1CC99CCB00276C8B /* Assets.xcassets */,
+				FAF4E8B31CC99CCB00276C8B /* Info.plist */,
+				FAF4E8A31CC99CCB00276C8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF4E8BB1CC99CCB00276C8B /* LylesTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF4E8BC1CC99CCB00276C8B /* LylesTests.m */,
+				FAF4E8BE1CC99CCB00276C8B /* Info.plist */,
+			);
+			path = LylesTests;
+			sourceTree = "<group>";
+		};
+		FAF4E8C71CC99D1400276C8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FA676BAE1DE3E4D20009086F /* LYLEBeer.h */,
+				FA676BAF1DE3E4D20009086F /* LYLEBeer.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FAF4E8C81CC99D6300276C8B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA676BA91DE3E27D0009086F /* BeerMenuTableViewController.h */,
+				FA676BAA1DE3E27D0009086F /* BeerMenuTableViewController.m */,
+			);
+			name = "View Controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF4E89E1CC99CCB00276C8B /* Lyles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF4E8C11CC99CCB00276C8B /* Build configuration list for PBXNativeTarget "Lyles" */;
+			buildPhases = (
+				FAF4E89B1CC99CCB00276C8B /* Sources */,
+				FAF4E89C1CC99CCB00276C8B /* Frameworks */,
+				FAF4E89D1CC99CCB00276C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lyles;
+			productName = Lyles;
+			productReference = FAF4E89F1CC99CCB00276C8B /* Lyles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF4E8B71CC99CCB00276C8B /* LylesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF4E8C41CC99CCB00276C8B /* Build configuration list for PBXNativeTarget "LylesTests" */;
+			buildPhases = (
+				FAF4E8B41CC99CCB00276C8B /* Sources */,
+				FAF4E8B51CC99CCB00276C8B /* Frameworks */,
+				FAF4E8B61CC99CCB00276C8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF4E8BA1CC99CCB00276C8B /* PBXTargetDependency */,
+			);
+			name = LylesTests;
+			productName = LylesTests;
+			productReference = FAF4E8B81CC99CCB00276C8B /* LylesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF4E8971CC99CCB00276C8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Grinnell AppDev";
+				TargetAttributes = {
+					FAF4E89E1CC99CCB00276C8B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FAF4E8B71CC99CCB00276C8B = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FAF4E89E1CC99CCB00276C8B;
+					};
+				};
+			};
+			buildConfigurationList = FAF4E89A1CC99CCB00276C8B /* Build configuration list for PBXProject "Lyles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF4E8961CC99CCB00276C8B;
+			productRefGroup = FAF4E8A01CC99CCB00276C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF4E89E1CC99CCB00276C8B /* Lyles */,
+				FAF4E8B71CC99CCB00276C8B /* LylesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF4E89D1CC99CCB00276C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA676BAD1DE3E3140009086F /* Main.storyboard in Resources */,
+				FAF4E8B21CC99CCB00276C8B /* LaunchScreen.storyboard in Resources */,
+				FAF4E8AF1CC99CCB00276C8B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF4E8B61CC99CCB00276C8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF4E89B1CC99CCB00276C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA676BAB1DE3E27D0009086F /* BeerMenuTableViewController.m in Sources */,
+				FA676BB01DE3E4D20009086F /* LYLEBeer.m in Sources */,
+				FAF4E8A71CC99CCB00276C8B /* AppDelegate.m in Sources */,
+				FAF4E8A41CC99CCB00276C8B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF4E8B41CC99CCB00276C8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF4E8BD1CC99CCB00276C8B /* LylesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF4E8BA1CC99CCB00276C8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF4E89E1CC99CCB00276C8B /* Lyles */;
+			targetProxy = FAF4E8B91CC99CCB00276C8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF4E8B01CC99CCB00276C8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF4E8B11CC99CCB00276C8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF4E8BF1CC99CCB00276C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF4E8C01CC99CCB00276C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF4E8C21CC99CCB00276C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.grinnell.appdev.Lyles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF4E8C31CC99CCB00276C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Lyles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.grinnell.appdev.Lyles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF4E8C51CC99CCB00276C8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LylesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.grinnell.appdev.LylesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyles.app/Lyles";
+			};
+			name = Debug;
+		};
+		FAF4E8C61CC99CCB00276C8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LylesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.grinnell.appdev.LylesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lyles.app/Lyles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF4E89A1CC99CCB00276C8B /* Build configuration list for PBXProject "Lyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF4E8BF1CC99CCB00276C8B /* Debug */,
+				FAF4E8C01CC99CCB00276C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF4E8C11CC99CCB00276C8B /* Build configuration list for PBXNativeTarget "Lyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF4E8C21CC99CCB00276C8B /* Debug */,
+				FAF4E8C31CC99CCB00276C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF4E8C41CC99CCB00276C8B /* Build configuration list for PBXNativeTarget "LylesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF4E8C51CC99CCB00276C8B /* Debug */,
+				FAF4E8C61CC99CCB00276C8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF4E8971CC99CCB00276C8B /* Project object */;
+}
